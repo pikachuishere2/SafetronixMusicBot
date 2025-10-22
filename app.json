@@ -1,81 +1,72 @@
-{
-  "name": "Alya - Telegram Music Bot",
-  "description": "Alya is a Telegram Music Player Bot built with Python using Pyrogram and Py-Tgcalls for seamless music streaming.",
-  "repository": "https://github.com/pikachuishere2/SafetronixMusicBot",
-  "keywords": [
+    "name": "𝐒ᴏɴᴀʟɪ 𝐌ᴜsɪᴄ",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://telegra.ph/file/a852ad09c23571d37d603.jpg",
+    "keywords": [
+    "python3",
     "telegram",
-    "music",
     "bot",
-    "pyrogram",
-    "python",
-    "alya"
-  ],
-  "stack": "container",
-  "buildpacks": [
-    {
-      "url": "heroku/python"
+    "TEAMPURVI",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The user id of user whom you would like to add as OWNER.",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram v2 String Session from @KING_STRING_SESSION_BOT on Telegram.",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app name",
+        "value": "",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": "Your Log Group ID, add your bot or assistant and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "value": "",
+        "required": true
+      }
     },
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }
-  ],
-  "env": {
-    "API_ID": {
-      "description": "Get this from https://my.telegram.org",
-      "required": true
-    },
-    "API_HASH": {
-      "description": "Get this from https://my.telegram.org",
-      "required": true
-    },
-    "BOT_TOKEN": {
-      "description": "Get this from @BotFather on Telegram.",
-      "required": true
-    },
-    "MONGO_DB_URI": {
-      "description": "Get a MongoDB URI from https://cloud.mongodb.com",
-      "required": true
-    },
-    "OWNER_ID": {
-      "description": "Your Telegram User ID (as owner)",
-      "required": true
-    },
-    "STRING_SESSION": {
-      "description": "Generate using @Strings_Gen_Robot on Telegram",
-      "required": true
-    },
-    "HEROKU_API_KEY": {
-      "description": "Your Heroku account API key",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "Your Heroku app name",
-      "required": false
-    },
-    "LOGGER_ID": {
-      "description": "Your log group chat ID. Add bot as admin.",
-      "required": true
-    },
-    "GPT_API": {
-      "description": "Your OpenAI GPT API key (optional)",
-      "required": false
-    },
-    "DEEP_API": {
-      "description": "Your DEEP AI API key (optional)",
-      "required": false
-    }
-  },
-  "formation": {
-    "worker": {
-      "quantity": 1,
-       "size": "standard-1x"
-    }
-  },
-  "addons": [],
-  "scripts": {
-    "postdeploy": "echo 'Alya Music Bot deployed successfully to Heroku!'"
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
   }
-}
