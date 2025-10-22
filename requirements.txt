@@ -2,12 +2,10 @@ aiofiles
 aiohttp
 apscheduler
 asyncio
-bard
 beautifulsoup4
 bing_image_downloader
 bs4
 cloudscraper
-curl-cffi
 deepai
 dnspython
 emojis
@@ -36,8 +34,6 @@ opencv-python
 pickledb
 pillow==10.3.0
 psutil
-lexica-api
-ntgcalls
 pytgcalls==3.0.0.dev20
 pycountry
 pycryptodome
