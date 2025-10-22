@@ -65,21 +65,21 @@ autoclean = []
 confirmer = {}
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/ggrsa1.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/k0zuou.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/830pjr.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/fgy1qb.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/tkq9uh.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/0rmax6.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/tkq9uh.jpg"
-TELEGRAM_VID_URL = "https://files.catbox.moe/tkq9uh.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/tkq9uh.jpg"
-SOUNCLOUD_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
-YOUTUBE_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/s5Vfz84/photo-2025-01-05-21-49-51-7456552074738663428.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/a501f7.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/fgy1qb.jpg"
+TELEGRAM_VID_URL = "https://files.catbox.moe/fgy1qb.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/fgy1qb.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/fgy1qb.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/8f4x3i.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/8f4x3i.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/8f4x3i.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/8f4x3i.jpg"
 STATS_VID_URL = "https://files.catbox.moe/z1k13z.mp4"
 
 def time_to_seconds(time):
