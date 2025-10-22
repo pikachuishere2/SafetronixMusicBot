@@ -7,11 +7,11 @@ load_dotenv()
 
 API_ID = 23321960
 API_HASH = "a334659dd1e01f78c189fc93fc6db455"
-BOT_TOKEN = "8380480804:AAFCjO70YKP-2NnamUjbsgCYbTQk49dLT48"
-OWNER_USERNAME = "@Suicidemoments"
-BOT_USERNAME = "@SafetronixMusicBot"
+BOT_TOKEN = ""
+OWNER_USERNAME = "Suicidemoments"
+BOT_USERNAME = "SafetronixMusicBot"
 BOT_NAME = "𝖲𝖺𝖿𝖾𝗍𝗋𝗈𝗇𝗂𝗑 𝖬𝗎𝗌𝗂𝖼"
-ASSUSERNAME = "@SafetronixAssistant"
+ASSUSERNAME = "SafetronixAssistant"
 EVALOP = list(map(int, getenv("EVALOP", "8076443359").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ahad0181888:ahad0181888@cluster0.f9casz0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 LOGGER_ID = -1003138759746
