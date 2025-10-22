@@ -23,7 +23,7 @@ OWNER_ID = 7857598507
 
 HEROKU_APP_NAME = None
 HEROKU_API_KEY = None
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/sexyxcoders/LUNA")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/pikachuishere2/SafetronixMusicBot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", "")
 
