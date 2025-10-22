@@ -1,7 +1,7 @@
 {
   "name": "Alya - Telegram Music Bot",
   "description": "Alya is a Telegram Music Player Bot built with Python using Pyrogram and Py-Tgcalls for seamless music streaming.",
-  "repository": "https://github.com/yourusername/yourrepo",
+  "repository": "https:/pikachuishere2/github.com//SafetronixMusicBot",
   "keywords": [
     "telegram",
     "music",
@@ -10,7 +10,6 @@
     "python",
     "alya"
   ],
-  "stack": "container",
   "buildpacks": [
     {
       "url": "heroku/python"
@@ -71,11 +70,11 @@
   "formation": {
     "worker": {
       "quantity": 1,
-       "size": "standard-1x"
+      "size": "standard-1x"
     }
   },
   "addons": [],
   "scripts": {
-    "postdeploy": "echo 'Alya Music Bot deployed successfully to Heroku!'"
+    "postdeploy": "echo ' Alya Music Bot deployed successfully to Heroku!'"
   }
 }
